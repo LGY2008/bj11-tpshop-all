@@ -1,0 +1,1068 @@
+2019-05-19 20:31:51,949 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="d0dccc63-9779-41cc-8884-676a06a4f757")>
+2019-05-19 20:31:51,953 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:31:51,953 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:31:52,157 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:31:52,157 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:31:55,334 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:31:55,400 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:31:55,475 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:31:55,475 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:31:55,491 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:31:55,518 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:31:55,557 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:31:55,558 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:31:55,576 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:31:55,604 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:31:55,651 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:31:55,651 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:31:55,735 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.userinfo') 元素文本值
+2019-05-19 20:31:55,735 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.userinfo') 元素, 查找最多时间30
+2019-05-19 20:32:25,858 ERROR [root] [test01_login.py (test_login:59] - Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpb9ajtgj2/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+    at FirefoxDriver.prototype.findElement (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpb9ajtgj2/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+    at DelayedCommand.prototype.executeInternal_/h (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpb9ajtgj2/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+    at DelayedCommand.prototype.executeInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpb9ajtgj2/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+    at DelayedCommand.prototype.execute/< (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpb9ajtgj2/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+2019-05-19 20:32:25,858 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:25,858 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:25,867 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:25,887 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入： 值操作
+2019-05-19 20:32:25,920 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:25,920 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:25,928 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:25,936 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:32:26,028 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:26,028 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:26,042 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:26,064 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:32:26,143 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:26,143 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:26,247 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:26,247 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:26,271 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:32:26,585 ERROR [root] [test01_login.py (test_login:72] - '用户名不能为空!' != '密码错误!'
+- 用户名不能为空!
++ 密码错误!
+
+2019-05-19 20:32:26,585 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:26,585 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:26,701 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:26,701 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:26,727 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:26,787 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:32:26,848 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:26,848 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:26,896 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:26,908 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入： 值操作
+2019-05-19 20:32:26,947 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:26,947 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:26,955 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:26,977 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:32:27,024 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:27,024 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:27,137 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:27,137 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:27,163 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:27,164 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:27,273 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:27,274 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:27,332 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:27,365 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:32:27,436 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:27,436 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:27,450 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:27,474 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:32:27,526 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:27,526 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:27,542 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:27,575 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入： 值操作
+2019-05-19 20:32:27,624 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:27,624 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:27,784 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:27,784 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:27,831 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:27,831 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:27,987 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:27,987 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:27,987 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:28,037 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001112 值操作
+2019-05-19 20:32:28,106 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:28,106 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:28,119 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:28,138 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:32:28,173 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:28,173 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:28,186 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:28,209 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:32:28,242 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:28,242 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:28,323 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:28,323 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:29,890 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:29,890 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:30,008 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:30,008 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:30,018 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:30,074 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：138000011112 值操作
+2019-05-19 20:32:30,120 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:30,121 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:30,130 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:30,150 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:32:30,196 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:30,197 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:30,205 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:30,238 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:32:30,310 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:30,310 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:30,382 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:30,382 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:30,427 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:30,428 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:30,529 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:30,530 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:30,545 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:30,571 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:32:30,642 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:30,642 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:30,642 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:30,675 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1234567 值操作
+2019-05-19 20:32:30,748 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:30,748 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:30,759 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:30,783 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:32:30,954 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:30,954 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:31,033 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:31,033 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:32,604 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:32:32,872 ERROR [root] [test01_login.py (test_login:72] - '密码错误 !' != '密码错误!'
+- 密码错误 !
+?     -
++ 密码错误!
+
+2019-05-19 20:32:32,872 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:32,873 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:32,948 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:32,948 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:32,979 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:33,037 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:32:33,130 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:33,131 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:33,143 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:33,159 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:32:33,205 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:33,205 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:33,252 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:33,267 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：88889 值操作
+2019-05-19 20:32:33,316 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:33,316 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:33,399 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:32:33,399 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:32:33,943 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:32:33,943 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:32:42,965 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="3878d7f5-7f04-45db-adee-84bdc4961a5d")>
+2019-05-19 20:32:42,966 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:32:42,966 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:32:46,147 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:32:46,147 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:32:46,166 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:32:46,188 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:32:46,239 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:32:46,239 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:32:46,250 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:32:46,286 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:32:46,321 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:32:46,322 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:32:46,347 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:32:46,376 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:32:46,408 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:32:46,408 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:32:46,499 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="3878d7f5-7f04-45db-adee-84bdc4961a5d")>
+2019-05-19 20:32:46,500 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:32:46,500 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:33:00,216 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="3878d7f5-7f04-45db-adee-84bdc4961a5d")>
+2019-05-19 20:33:00,216 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:33:00,216 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:33:01,255 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="3878d7f5-7f04-45db-adee-84bdc4961a5d")>
+2019-05-19 20:33:01,255 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:33:01,255 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:33:32,947 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="78efa48a-33a6-4c88-9c69-a749682a327e")>
+2019-05-19 20:33:32,948 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:33:32,948 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:33:35,916 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:33:35,917 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:33:35,972 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:33:35,994 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:33:36,057 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:33:36,057 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:33:36,071 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:33:36,100 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:33:36,139 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:33:36,140 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:33:36,173 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:33:36,195 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:33:36,232 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:33:36,233 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:33:36,313 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.userinfo') 元素文本值
+2019-05-19 20:33:36,313 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.userinfo') 元素, 查找最多时间30
+2019-05-19 20:34:06,351 ERROR [root] [test01_login.py (test_login:59] - Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpk6hziyv1/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+    at FirefoxDriver.prototype.findElement (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpk6hziyv1/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+    at DelayedCommand.prototype.executeInternal_/h (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpk6hziyv1/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+    at DelayedCommand.prototype.executeInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpk6hziyv1/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+    at DelayedCommand.prototype.execute/< (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpk6hziyv1/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+2019-05-19 20:34:06,352 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:06,352 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:06,375 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:06,392 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入： 值操作
+2019-05-19 20:34:06,445 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:06,445 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:06,445 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:06,461 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:34:06,508 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:06,508 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:06,530 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:06,546 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:34:06,572 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:06,572 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:06,699 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:06,700 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:06,726 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:34:07,101 ERROR [root] [test01_login.py (test_login:72] - '用户名不能为空!' != '密码错误!'
+- 用户名不能为空!
++ 密码错误!
+
+2019-05-19 20:34:07,101 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:07,102 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:07,191 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:07,191 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:07,238 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:07,287 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:34:07,360 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:07,361 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:07,375 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:07,394 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入： 值操作
+2019-05-19 20:34:07,421 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:07,421 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:07,433 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:07,451 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:34:07,501 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:07,501 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:07,615 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:07,615 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:07,631 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:07,631 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:07,737 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:07,737 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:07,752 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:07,822 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:34:07,868 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:07,869 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:07,879 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:07,928 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:34:07,968 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:07,969 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:07,975 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:08,002 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入： 值操作
+2019-05-19 20:34:08,052 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:08,053 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:08,156 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:08,156 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:08,184 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:08,184 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:08,303 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:08,303 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:08,311 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:08,332 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001112 值操作
+2019-05-19 20:34:08,405 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:08,406 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:08,409 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:08,425 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:34:08,498 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:08,498 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:08,498 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:08,536 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:34:08,568 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:08,569 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:08,654 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:08,654 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:10,235 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:10,235 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:10,348 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:10,348 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:10,389 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:10,422 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：138000011112 值操作
+2019-05-19 20:34:10,487 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:10,488 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:10,497 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:10,549 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:34:10,581 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:10,581 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:10,587 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:10,610 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:34:10,652 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:10,653 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:10,746 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:10,746 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:10,790 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:10,790 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:10,877 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:10,877 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:10,927 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:10,932 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:34:11,010 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:11,010 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:11,026 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:11,062 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1234567 值操作
+2019-05-19 20:34:11,093 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:11,094 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:11,100 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:11,134 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:34:11,176 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:11,176 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:11,251 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:11,251 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:12,813 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:34:13,087 ERROR [root] [test01_login.py (test_login:72] - '密码错误 !' != '密码错误!'
+- 密码错误 !
+?     -
++ 密码错误!
+
+2019-05-19 20:34:13,087 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:13,087 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:13,198 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:13,198 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:13,230 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:13,261 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:34:13,340 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:13,340 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:13,347 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:13,366 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:34:13,413 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:13,413 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:13,423 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:13,442 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：88889 值操作
+2019-05-19 20:34:13,474 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:13,475 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:13,545 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:34:13,545 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:34:14,083 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:34:14,083 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:34:24,349 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="c36c2d86-b126-4692-8caa-f5bbe55f2906")>
+2019-05-19 20:34:24,349 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:34:24,350 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:34:24,627 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:34:24,627 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:34:29,378 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:34:29,400 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:34:29,461 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:34:29,461 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:34:29,473 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:34:29,495 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:34:29,557 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:34:29,557 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:34:29,573 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:34:29,590 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:34:29,644 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:34:29,644 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:34:29,759 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="c36c2d86-b126-4692-8caa-f5bbe55f2906")>
+2019-05-19 20:34:29,759 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:34:29,759 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:34:59,830 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="c36c2d86-b126-4692-8caa-f5bbe55f2906")>
+2019-05-19 20:34:59,830 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:34:59,830 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:39:35,044 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="b3da6941-5140-452b-8922-804545121dea")>
+2019-05-19 20:39:35,044 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:39:35,044 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:39:35,315 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:35,315 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:37,194 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:37,214 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:39:37,263 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:37,263 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:37,274 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:37,334 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:39:37,366 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:37,366 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:37,376 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:37,429 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:39:37,470 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:37,470 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:37,566 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.userinfo') 元素文本值
+2019-05-19 20:39:37,566 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.userinfo') 元素, 查找最多时间30
+2019-05-19 20:39:42,265 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '安全退出') 元素
+2019-05-19 20:39:42,265 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '安全退出') 元素, 查找最多时间30
+2019-05-19 20:39:45,935 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:39:45,935 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:39:48,253 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:48,254 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:48,277 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:48,296 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入： 值操作
+2019-05-19 20:39:48,327 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:48,328 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:48,341 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:48,370 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:39:48,410 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:48,410 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:48,442 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:48,475 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:39:48,514 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:48,514 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:48,685 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:48,686 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:48,737 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:48,737 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:39:48,896 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:48,896 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:48,907 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:48,931 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:39:48,993 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:48,993 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:49,007 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:49,023 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入： 值操作
+2019-05-19 20:39:49,061 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:49,061 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:49,068 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:49,088 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:39:49,125 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:49,125 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:49,232 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:49,232 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:49,255 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:49,255 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:39:49,338 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:49,338 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:49,385 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:49,447 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:39:49,538 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:49,538 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:49,549 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:49,583 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:39:49,625 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:49,625 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:49,636 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:49,656 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入： 值操作
+2019-05-19 20:39:49,689 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:49,689 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:49,791 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:49,791 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:49,812 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:49,812 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:39:49,899 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:49,899 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:49,925 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:49,993 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888889 值操作
+2019-05-19 20:39:50,094 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:50,094 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:50,109 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:50,153 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:39:50,201 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:50,201 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:50,216 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:50,234 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:39:50,261 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:50,262 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:50,355 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:50,355 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:51,953 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:51,953 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:39:52,048 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:52,048 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:52,058 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:52,104 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：188888888889 值操作
+2019-05-19 20:39:52,186 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:52,186 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:52,186 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:52,229 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:39:52,301 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:52,301 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:52,320 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:52,340 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:39:52,396 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:52,396 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:52,507 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:52,508 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:52,532 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:52,532 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:39:52,640 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:52,640 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:52,656 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:52,751 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:39:52,822 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:52,823 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:52,833 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:52,862 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1234567 值操作
+2019-05-19 20:39:52,905 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:52,906 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:52,917 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:52,944 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:39:52,974 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:52,974 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:53,043 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:53,043 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:54,631 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:39:54,934 ERROR [root] [test01_login.py (test_login:72] - '密码错误 !' != '密码错误!'
+- 密码错误 !
+?     -
++ 密码错误!
+
+2019-05-19 20:39:54,934 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:54,934 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:39:55,028 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:39:55,028 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:39:55,085 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:39:55,139 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:39:55,187 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:39:55,188 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:39:55,200 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:39:55,243 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:39:55,274 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:39:55,274 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:39:55,281 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:39:55,304 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：88889 值操作
+2019-05-19 20:39:55,360 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:39:55,360 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:39:55,451 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:39:55,451 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:39:56,004 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:39:56,004 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:40:06,441 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="0fd063a1-58cc-4869-a90c-ee12554a7a56")>
+2019-05-19 20:40:06,441 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:40:06,441 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:40:11,487 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:40:11,488 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:40:11,495 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:40:11,527 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:40:11,579 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:40:11,579 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:40:11,595 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:40:11,638 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:40:11,685 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:40:11,685 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:40:11,701 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:40:11,732 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:40:11,780 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:40:11,780 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:40:11,896 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="0fd063a1-58cc-4869-a90c-ee12554a7a56")>
+2019-05-19 20:40:11,896 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:40:11,896 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:40:18,859 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#q') 元素
+2019-05-19 20:40:18,860 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#q') 元素, 查找最多时间30
+2019-05-19 20:40:18,865 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#q') 元素清空操作 clear
+2019-05-19 20:40:18,923 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#q') 元素进行输入：小米手机 值操作
+2019-05-19 20:40:20,318 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.ecsc-search-button') 元素
+2019-05-19 20:40:20,318 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.ecsc-search-button') 元素, 查找最多时间30
+2019-05-19 20:40:22,555 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.p-btn>a') 元素
+2019-05-19 20:40:22,555 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.p-btn>a') 元素, 查找最多时间30
+2019-05-19 20:40:22,729 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '#join_cart') 元素
+2019-05-19 20:40:22,729 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#join_cart') 元素, 查找最多时间30
+2019-05-19 20:40:29,484 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#layui-layer-iframe1') 元素, 查找最多时间30
+2019-05-19 20:40:32,359 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.conect-title>span') 元素文本值
+2019-05-19 20:40:32,359 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.conect-title>span') 元素, 查找最多时间30
+2019-05-19 20:40:33,129 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-close') 元素
+2019-05-19 20:40:33,129 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-close') 元素, 查找最多时间30
+2019-05-19 20:40:42,781 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="a24b9203-cf09-4d39-9268-66544534541b")>
+2019-05-19 20:40:42,782 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:40:42,782 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:40:45,943 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:40:45,943 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:40:45,967 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:40:45,989 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:40:46,049 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:40:46,049 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:40:46,060 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:40:46,096 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:40:46,158 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:40:46,159 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:40:46,169 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:40:46,193 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:40:46,236 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:40:46,237 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:40:46,354 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="a24b9203-cf09-4d39-9268-66544534541b")>
+2019-05-19 20:40:46,354 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:40:46,354 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:40:55,374 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.c-n') 元素
+2019-05-19 20:40:55,374 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.c-n') 元素, 查找最多时间30
+2019-05-19 20:40:58,065 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.checkCartAll') 元素, 查找最多时间30
+2019-05-19 20:40:58,097 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.gwc-qjs') 元素
+2019-05-19 20:40:58,097 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.gwc-qjs') 元素, 查找最多时间30
+2019-05-19 20:40:59,986 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.consignee>b') 元素, 查找最多时间30
+2019-05-19 20:41:30,326 ERROR [root] [test03_order.py (test_order:37] - Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpvewr7ed7/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+    at FirefoxDriver.prototype.findElement (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpvewr7ed7/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+    at DelayedCommand.prototype.executeInternal_/h (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpvewr7ed7/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+    at DelayedCommand.prototype.executeInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpvewr7ed7/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+    at DelayedCommand.prototype.execute/< (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpvewr7ed7/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+2019-05-19 20:41:30,326 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:41:42,962 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="be2c697d-1516-4424-8584-f58be8488e98")>
+2019-05-19 20:41:42,963 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:41:42,963 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:41:43,318 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:41:43,318 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:41:45,175 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:41:45,207 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+2019-05-19 20:41:45,269 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:41:45,269 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:41:45,285 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:41:45,310 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:41:45,396 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:41:45,396 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:41:45,420 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:41:45,454 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:41:45,532 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:41:45,532 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:41:45,676 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="be2c697d-1516-4424-8584-f58be8488e98")>
+2019-05-19 20:41:45,676 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:41:45,677 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:41:52,656 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '我的订单') 元素
+2019-05-19 20:41:52,656 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '我的订单') 元素, 查找最多时间30
+2019-05-19 20:41:55,368 INFO [root] [base.py (base_switch_to_window:84] - 正在切换 title为：我的订单 的窗口
+2019-05-19 20:41:55,391 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {24bce5b5-578c-4705-bef0-950ae90ef420} -->['{24bce5b5-578c-4705-bef0-950ae90ef420}', '{cb4c0204-ca14-47f0-a730-3cb5b96c585e}']
+2019-05-19 20:41:55,436 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{24bce5b5-578c-4705-bef0-950ae90ef420} 窗口
+2019-05-19 20:41:55,451 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {cb4c0204-ca14-47f0-a730-3cb5b96c585e} -->['{24bce5b5-578c-4705-bef0-950ae90ef420}', '{cb4c0204-ca14-47f0-a730-3cb5b96c585e}']
+2019-05-19 20:41:55,481 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{cb4c0204-ca14-47f0-a730-3cb5b96c585e} 窗口
+2019-05-19 20:41:57,324 INFO [root] [base.py (base_get_handle:99] - 条件成立，返回handle：{cb4c0204-ca14-47f0-a730-3cb5b96c585e}
+2019-05-19 20:41:57,348 INFO [root] [base.py (base_switch_to_window:86] - 执行切换 title为：我的订单 的窗口， 完成！！！
+2019-05-19 20:41:57,348 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.ps_lj') 元素
+2019-05-19 20:41:57,348 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.ps_lj') 元素, 查找最多时间30
+2019-05-19 20:42:27,859 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:42:28,222 ERROR [root] [test04_pay.py (test_pay:39] - Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmp2985n29o/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+    at FirefoxDriver.prototype.findElement (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmp2985n29o/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+    at DelayedCommand.prototype.executeInternal_/h (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmp2985n29o/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+    at DelayedCommand.prototype.executeInternal_ (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmp2985n29o/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+    at DelayedCommand.prototype.execute/< (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmp2985n29o/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+2019-05-19 20:43:30,525 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="b241e052-b774-48e5-bf6d-1c1ef91cd0d4")>
+2019-05-19 20:43:30,526 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:43:30,526 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:43:33,518 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:33,518 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:33,533 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:33,556 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:43:33,608 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:33,608 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:33,619 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:33,641 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:43:33,677 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:33,677 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:33,685 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:33,704 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:43:33,749 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:33,749 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:33,826 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.userinfo') 元素文本值
+2019-05-19 20:43:33,826 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.userinfo') 元素, 查找最多时间30
+2019-05-19 20:43:38,351 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '安全退出') 元素
+2019-05-19 20:43:38,351 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '安全退出') 元素, 查找最多时间30
+2019-05-19 20:43:41,970 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:43:41,970 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:43:44,158 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:44,158 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:44,217 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:44,240 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入： 值操作
+2019-05-19 20:43:44,267 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:44,267 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:44,275 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:44,301 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:43:44,341 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:44,341 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:44,352 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:44,375 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:43:44,419 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:44,419 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:44,555 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:44,556 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:44,680 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:44,681 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:43:44,761 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:44,762 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:44,807 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:44,889 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:43:44,977 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:44,978 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:44,989 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:45,031 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入： 值操作
+2019-05-19 20:43:45,066 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:45,066 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:45,080 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:45,103 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:43:45,134 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:45,134 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:45,257 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:45,258 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:45,310 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:45,310 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:43:45,390 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:45,390 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:45,457 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:45,492 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:43:45,568 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:45,568 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:45,581 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:45,638 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:43:45,673 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:45,674 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:45,683 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:45,706 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入： 值操作
+2019-05-19 20:43:45,756 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:45,756 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:45,861 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:45,862 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:45,885 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:45,885 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:43:46,003 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:46,003 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:46,019 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:46,078 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888889 值操作
+2019-05-19 20:43:46,120 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:46,121 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:46,137 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:46,188 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:43:46,225 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:46,226 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:46,235 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:46,276 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:43:46,320 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:46,320 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:46,408 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:46,408 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:47,994 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:47,994 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:43:48,070 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:48,071 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:48,102 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:48,165 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：188888888889 值操作
+2019-05-19 20:43:48,215 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:48,216 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:48,254 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:48,288 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:43:48,325 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:48,325 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:48,334 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:48,385 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:43:48,420 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:48,420 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:48,506 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:48,506 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:48,542 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:48,543 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:43:48,693 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:48,693 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:48,704 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:48,736 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:43:48,801 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:48,801 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:48,815 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:48,837 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1234567 值操作
+2019-05-19 20:43:48,896 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:48,896 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:48,908 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:48,951 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:43:49,025 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:49,025 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:49,131 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:49,131 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:50,736 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:43:51,046 ERROR [root] [test01_login.py (test_login:72] - '密码错误 !' != '密码错误!'
+- 密码错误 !
+?     -
++ 密码错误!
+
+2019-05-19 20:43:51,046 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:51,046 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:43:51,182 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:43:51,182 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:43:51,219 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:43:51,247 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:43:51,321 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:43:51,322 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:43:51,336 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:43:51,360 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:43:51,394 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:43:51,394 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:43:51,404 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:43:51,439 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：88889 值操作
+2019-05-19 20:43:51,477 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:43:51,477 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:43:51,557 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:43:51,558 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:43:52,101 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:43:52,101 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:44:02,568 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="efa22301-c5b5-4682-820a-6a179beda54d")>
+2019-05-19 20:44:02,569 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:44:02,569 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:44:02,831 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:44:02,831 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:44:07,515 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:44:07,535 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:44:07,601 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:44:07,602 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:44:07,614 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:44:07,652 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:44:07,699 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:44:07,699 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:44:07,714 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:44:07,733 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:44:07,775 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:44:07,775 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:44:07,859 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="efa22301-c5b5-4682-820a-6a179beda54d")>
+2019-05-19 20:44:07,859 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:44:07,860 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:44:14,818 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#q') 元素
+2019-05-19 20:44:14,818 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#q') 元素, 查找最多时间30
+2019-05-19 20:44:14,834 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#q') 元素清空操作 clear
+2019-05-19 20:44:14,899 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#q') 元素进行输入：小米手机 值操作
+2019-05-19 20:44:16,257 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.ecsc-search-button') 元素
+2019-05-19 20:44:16,257 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.ecsc-search-button') 元素, 查找最多时间30
+2019-05-19 20:44:18,285 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.p-btn>a') 元素
+2019-05-19 20:44:18,285 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.p-btn>a') 元素, 查找最多时间30
+2019-05-19 20:44:18,385 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '#join_cart') 元素
+2019-05-19 20:44:18,386 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#join_cart') 元素, 查找最多时间30
+2019-05-19 20:44:26,690 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#layui-layer-iframe1') 元素, 查找最多时间30
+2019-05-19 20:44:28,333 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.conect-title>span') 元素文本值
+2019-05-19 20:44:28,333 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.conect-title>span') 元素, 查找最多时间30
+2019-05-19 20:44:28,728 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-close') 元素
+2019-05-19 20:44:28,728 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-close') 元素, 查找最多时间30
+2019-05-19 20:44:39,807 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="efc45cbf-c675-45be-8d3b-cad4a70e59c3")>
+2019-05-19 20:44:39,808 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:44:39,808 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:44:40,043 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:44:40,044 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:44:44,804 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:44:44,828 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:44:44,874 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:44:44,874 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:44:44,884 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:44:44,921 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:44:44,959 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:44:44,959 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:44:44,968 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:44:44,992 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:44:45,046 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:44:45,046 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:44:45,143 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="efc45cbf-c675-45be-8d3b-cad4a70e59c3")>
+2019-05-19 20:44:45,143 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:44:45,143 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:44:52,057 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.c-n') 元素
+2019-05-19 20:44:52,057 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.c-n') 元素, 查找最多时间30
+2019-05-19 20:44:53,999 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.checkCartAll') 元素, 查找最多时间30
+2019-05-19 20:44:54,051 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.gwc-qjs') 元素
+2019-05-19 20:44:54,051 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.gwc-qjs') 元素, 查找最多时间30
+2019-05-19 20:44:56,025 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.consignee>b') 元素, 查找最多时间30
+2019-05-19 20:44:57,622 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.Sub-orders') 元素
+2019-05-19 20:44:57,622 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.Sub-orders') 元素, 查找最多时间30
+2019-05-19 20:44:57,734 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.erhuh>h3') 元素文本值
+2019-05-19 20:44:57,734 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.erhuh>h3') 元素, 查找最多时间30
+2019-05-19 20:45:11,436 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="e86991a7-9cfe-47cc-95d1-9f5970f99c22")>
+2019-05-19 20:45:11,436 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:45:11,436 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:45:16,505 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:45:16,506 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:45:16,526 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:45:16,552 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:45:16,635 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:45:16,635 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:45:16,646 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:45:16,703 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:45:16,733 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:45:16,733 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:45:16,740 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:45:16,763 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:45:16,799 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:45:16,800 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:45:16,879 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="e86991a7-9cfe-47cc-95d1-9f5970f99c22")>
+2019-05-19 20:45:16,880 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.logo>img') 元素
+2019-05-19 20:45:16,880 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+2019-05-19 20:45:23,545 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '我的订单') 元素
+2019-05-19 20:45:23,545 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '我的订单') 元素, 查找最多时间30
+2019-05-19 20:45:26,136 INFO [root] [base.py (base_switch_to_window:84] - 正在切换 title为：我的订单 的窗口
+2019-05-19 20:45:26,155 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {03f66ea0-b7d7-4f7d-92ab-0737062dc120} -->['{03f66ea0-b7d7-4f7d-92ab-0737062dc120}', '{be8844b1-47a7-4882-9fd9-e94f11df31ee}']
+2019-05-19 20:45:26,228 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{03f66ea0-b7d7-4f7d-92ab-0737062dc120} 窗口
+2019-05-19 20:45:26,249 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {be8844b1-47a7-4882-9fd9-e94f11df31ee} -->['{03f66ea0-b7d7-4f7d-92ab-0737062dc120}', '{be8844b1-47a7-4882-9fd9-e94f11df31ee}']
+2019-05-19 20:45:26,337 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{be8844b1-47a7-4882-9fd9-e94f11df31ee} 窗口
+2019-05-19 20:45:28,533 INFO [root] [base.py (base_get_handle:99] - 条件成立，返回handle：{be8844b1-47a7-4882-9fd9-e94f11df31ee}
+2019-05-19 20:45:28,568 INFO [root] [base.py (base_switch_to_window:86] - 执行切换 title为：我的订单 的窗口， 完成！！！
+2019-05-19 20:45:28,568 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.ps_lj') 元素
+2019-05-19 20:45:28,568 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.ps_lj') 元素, 查找最多时间30
+2019-05-19 20:45:28,837 INFO [root] [base.py (base_switch_to_window:84] - 正在切换 title为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 的窗口
+2019-05-19 20:45:28,976 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {03f66ea0-b7d7-4f7d-92ab-0737062dc120} -->['{03f66ea0-b7d7-4f7d-92ab-0737062dc120}', '{be8844b1-47a7-4882-9fd9-e94f11df31ee}', '{a83beede-cb50-4fa5-b939-9ab9c5c1ecbe}']
+2019-05-19 20:45:29,064 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{03f66ea0-b7d7-4f7d-92ab-0737062dc120} 窗口
+2019-05-19 20:45:29,097 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {be8844b1-47a7-4882-9fd9-e94f11df31ee} -->['{03f66ea0-b7d7-4f7d-92ab-0737062dc120}', '{be8844b1-47a7-4882-9fd9-e94f11df31ee}', '{a83beede-cb50-4fa5-b939-9ab9c5c1ecbe}']
+2019-05-19 20:45:29,166 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{be8844b1-47a7-4882-9fd9-e94f11df31ee} 窗口
+2019-05-19 20:45:29,186 INFO [root] [base.py (base_get_handle:93] - 正在遍历 {a83beede-cb50-4fa5-b939-9ab9c5c1ecbe} -->['{03f66ea0-b7d7-4f7d-92ab-0737062dc120}', '{be8844b1-47a7-4882-9fd9-e94f11df31ee}', '{a83beede-cb50-4fa5-b939-9ab9c5c1ecbe}']
+2019-05-19 20:45:29,216 INFO [root] [base.py (base_get_handle:96] - 正在切换 handle为{a83beede-cb50-4fa5-b939-9ab9c5c1ecbe} 窗口
+2019-05-19 20:45:34,397 INFO [root] [base.py (base_get_handle:99] - 条件成立，返回handle：{a83beede-cb50-4fa5-b939-9ab9c5c1ecbe}
+2019-05-19 20:45:34,422 INFO [root] [base.py (base_switch_to_window:86] - 执行切换 title为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 的窗口， 完成！！！
+2019-05-19 20:45:34,422 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '[value="pay_code=cod"]') 元素
+2019-05-19 20:45:34,422 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '[value="pay_code=cod"]') 元素, 查找最多时间30
+2019-05-19 20:45:34,515 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.button-confirm-payment') 元素
+2019-05-19 20:45:34,515 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.button-confirm-payment') 元素, 查找最多时间30
+2019-05-19 20:45:36,065 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.erhuh>h3') 元素文本值
+2019-05-19 20:45:36,065 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.erhuh>h3') 元素, 查找最多时间30
+2019-05-19 20:46:10,337 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="392cb8f6-c54a-418f-8281-934ba097541c")>
+2019-05-19 20:46:10,337 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:46:10,338 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:46:15,413 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:15,413 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:15,436 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:15,452 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:46:15,505 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:15,505 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:15,514 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:15,536 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:46:15,566 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:15,567 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:15,579 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:15,621 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:46:15,661 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:15,661 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:15,754 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.userinfo') 元素文本值
+2019-05-19 20:46:15,754 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.userinfo') 元素, 查找最多时间30
+2019-05-19 20:46:20,300 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '安全退出') 元素
+2019-05-19 20:46:20,300 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '安全退出') 元素, 查找最多时间30
+2019-05-19 20:46:23,870 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:46:23,870 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:46:25,553 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:25,553 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:25,564 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:25,607 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入： 值操作
+2019-05-19 20:46:25,648 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:25,648 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:25,659 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:25,681 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:46:25,720 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:25,720 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:25,729 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:25,759 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:46:25,795 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:25,795 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:25,906 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:25,907 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:25,933 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:25,933 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:26,007 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:26,008 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:26,119 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:26,158 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:46:26,224 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:26,227 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:26,236 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:26,255 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入： 值操作
+2019-05-19 20:46:26,290 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:26,290 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:26,302 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:26,321 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:46:26,349 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:26,349 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:26,435 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:26,435 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:26,459 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:26,460 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:26,567 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:26,567 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:26,581 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:26,618 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:46:26,664 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:26,664 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:26,675 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:26,701 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:46:26,749 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:26,749 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:26,761 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:26,785 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入： 值操作
+2019-05-19 20:46:26,809 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:26,810 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:26,888 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:26,889 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:26,921 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:26,921 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:27,004 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:27,004 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:27,032 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:27,075 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888889 值操作
+2019-05-19 20:46:27,144 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:27,145 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:27,156 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:27,212 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:46:27,246 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:27,246 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:27,254 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:27,294 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:46:27,323 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:27,323 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:27,403 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:27,403 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:28,979 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:28,979 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:29,086 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:29,087 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:29,101 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:29,157 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：188888888889 值操作
+2019-05-19 20:46:29,211 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:29,211 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:29,225 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:29,292 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：123456 值操作
+2019-05-19 20:46:29,324 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:29,324 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:29,332 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:29,361 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:46:29,392 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:29,392 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:29,495 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:29,496 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:29,526 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:29,526 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:29,604 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:29,604 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:29,633 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:29,730 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:46:29,800 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:29,801 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:29,814 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:29,832 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1234567 值操作
+2019-05-19 20:46:29,867 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:29,867 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:29,876 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:29,906 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+2019-05-19 20:46:29,938 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:29,938 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:30,019 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:30,019 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:31,594 INFO [root] [base.py (base_get_image:61] - 断言错误，正在执行截图操作！
+2019-05-19 20:46:31,903 ERROR [root] [test01_login.py (test_login:72] - '密码错误 !' != '密码错误!'
+- 密码错误 !
+?     -
++ 密码错误!
+
+2019-05-19 20:46:31,903 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:31,903 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:31,988 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#username') 元素
+2019-05-19 20:46:31,988 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#username') 元素, 查找最多时间30
+2019-05-19 20:46:32,011 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#username') 元素清空操作 clear
+2019-05-19 20:46:32,066 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#username') 元素进行输入：18888888888 值操作
+2019-05-19 20:46:32,166 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#password') 元素
+2019-05-19 20:46:32,166 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#password') 元素, 查找最多时间30
+2019-05-19 20:46:32,176 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#password') 元素清空操作 clear
+2019-05-19 20:46:32,215 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#password') 元素进行输入：1 值操作
+2019-05-19 20:46:32,255 INFO [root] [base.py (base_input:33] - 正在获取:('css selector', '#verify_code') 元素
+2019-05-19 20:46:32,255 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+2019-05-19 20:46:32,263 INFO [root] [base.py (base_input:35] - 正在对:('css selector', '#verify_code') 元素清空操作 clear
+2019-05-19 20:46:32,284 INFO [root] [base.py (base_input:38] - 正在对:('css selector', '#verify_code') 元素进行输入：88889 值操作
+2019-05-19 20:46:32,345 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.J-login-submit') 元素
+2019-05-19 20:46:32,345 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+2019-05-19 20:46:32,418 INFO [root] [base.py (base_get_text:44] - 正在获取:('css selector', '.layui-layer-content') 元素文本值
+2019-05-19 20:46:32,419 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-content') 元素, 查找最多时间30
+2019-05-19 20:46:32,973 INFO [root] [base.py (base_click:27] - 正在点击:('css selector', '.layui-layer-btn0') 元素
+2019-05-19 20:46:32,974 INFO [root] [base.py (base_find:21] - 正在查找:('css selector', '.layui-layer-btn0') 元素, 查找最多时间30
+2019-05-19 20:46:33,613 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="392cb8f6-c54a-418f-8281-934ba097541c")>
+2019-05-19 20:46:33,614 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:46:33,614 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:46:34,615 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="392cb8f6-c54a-418f-8281-934ba097541c")>
+2019-05-19 20:46:34,615 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:46:34,615 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30
+2019-05-19 20:46:35,617 INFO [root] [base.py (__init__:17] - 获取driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="392cb8f6-c54a-418f-8281-934ba097541c")>
+2019-05-19 20:46:35,617 INFO [root] [base.py (base_click:27] - 正在点击:('partial link text', '登录') 元素
+2019-05-19 20:46:35,617 INFO [root] [base.py (base_find:21] - 正在查找:('partial link text', '登录') 元素, 查找最多时间30

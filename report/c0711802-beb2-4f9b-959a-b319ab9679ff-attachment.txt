@@ -1,0 +1,46 @@
+base.py                     17 INFO     获取driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="9424fa59155ff1e87264eea9d175d3fa")>
+base.py                     27 INFO     正在点击:('partial link text', '登录') 元素
+base.py                     21 INFO     正在查找:('partial link text', '登录') 元素, 查找最多时间30
+base.py                     33 INFO     正在获取:('css selector', '#username') 元素
+base.py                     21 INFO     正在查找:('css selector', '#username') 元素, 查找最多时间30
+base.py                     35 INFO     正在对:('css selector', '#username') 元素清空操作 clear
+base.py                     38 INFO     正在对:('css selector', '#username') 元素进行输入：13800001111 值操作
+base.py                     33 INFO     正在获取:('css selector', '#password') 元素
+base.py                     21 INFO     正在查找:('css selector', '#password') 元素, 查找最多时间30
+base.py                     35 INFO     正在对:('css selector', '#password') 元素清空操作 clear
+base.py                     38 INFO     正在对:('css selector', '#password') 元素进行输入：123456 值操作
+base.py                     33 INFO     正在获取:('css selector', '#verify_code') 元素
+base.py                     21 INFO     正在查找:('css selector', '#verify_code') 元素, 查找最多时间30
+base.py                     35 INFO     正在对:('css selector', '#verify_code') 元素清空操作 clear
+base.py                     38 INFO     正在对:('css selector', '#verify_code') 元素进行输入：8888 值操作
+base.py                     27 INFO     正在点击:('css selector', '.J-login-submit') 元素
+base.py                     21 INFO     正在查找:('css selector', '.J-login-submit') 元素, 查找最多时间30
+base.py                     17 INFO     获取driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="9424fa59155ff1e87264eea9d175d3fa")>
+base.py                     27 INFO     正在点击:('css selector', '.logo>img') 元素
+base.py                     21 INFO     正在查找:('css selector', '.logo>img') 元素, 查找最多时间30
+base.py                     27 INFO     正在点击:('partial link text', '我的订单') 元素
+base.py                     21 INFO     正在查找:('partial link text', '我的订单') 元素, 查找最多时间30
+base.py                     84 INFO     正在切换 title为：我的订单 的窗口
+base.py                     93 INFO     正在遍历 CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41 -->['CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41', 'CDwindow-95407390712B94F9CC1A1824D2192C1B']
+base.py                     96 INFO     正在切换 handle为CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41 窗口
+base.py                     93 INFO     正在遍历 CDwindow-95407390712B94F9CC1A1824D2192C1B -->['CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41', 'CDwindow-95407390712B94F9CC1A1824D2192C1B']
+base.py                     96 INFO     正在切换 handle为CDwindow-95407390712B94F9CC1A1824D2192C1B 窗口
+base.py                     99 INFO     条件成立，返回handle：CDwindow-95407390712B94F9CC1A1824D2192C1B
+base.py                     86 INFO     执行切换 title为：我的订单 的窗口， 完成！！！
+base.py                     27 INFO     正在点击:('css selector', '.ps_lj') 元素
+base.py                     21 INFO     正在查找:('css selector', '.ps_lj') 元素, 查找最多时间30
+base.py                     84 INFO     正在切换 title为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 的窗口
+base.py                     93 INFO     正在遍历 CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41 -->['CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41', 'CDwindow-95407390712B94F9CC1A1824D2192C1B', 'CDwindow-818750AEDDE9D7BA7274C01FC4077BE6']
+base.py                     96 INFO     正在切换 handle为CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41 窗口
+base.py                     93 INFO     正在遍历 CDwindow-95407390712B94F9CC1A1824D2192C1B -->['CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41', 'CDwindow-95407390712B94F9CC1A1824D2192C1B', 'CDwindow-818750AEDDE9D7BA7274C01FC4077BE6']
+base.py                     96 INFO     正在切换 handle为CDwindow-95407390712B94F9CC1A1824D2192C1B 窗口
+base.py                     93 INFO     正在遍历 CDwindow-818750AEDDE9D7BA7274C01FC4077BE6 -->['CDwindow-1FA3D8A7EE77F89F5C2DF6C9D5758D41', 'CDwindow-95407390712B94F9CC1A1824D2192C1B', 'CDwindow-818750AEDDE9D7BA7274C01FC4077BE6']
+base.py                     96 INFO     正在切换 handle为CDwindow-818750AEDDE9D7BA7274C01FC4077BE6 窗口
+base.py                     99 INFO     条件成立，返回handle：CDwindow-818750AEDDE9D7BA7274C01FC4077BE6
+base.py                     86 INFO     执行切换 title为：订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 的窗口， 完成！！！
+base.py                     27 INFO     正在点击:('css selector', '[value="pay_code=cod"]') 元素
+base.py                     21 INFO     正在查找:('css selector', '[value="pay_code=cod"]') 元素, 查找最多时间30
+base.py                     27 INFO     正在点击:('css selector', '.button-confirm-payment') 元素
+base.py                     21 INFO     正在查找:('css selector', '.button-confirm-payment') 元素, 查找最多时间30
+base.py                     44 INFO     正在获取:('css selector', '.erhuh>h3') 元素文本值
+base.py                     21 INFO     正在查找:('css selector', '.erhuh>h3') 元素, 查找最多时间30

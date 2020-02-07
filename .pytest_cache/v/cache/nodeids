@@ -1,0 +1,13 @@
+[
+  "scripts/test01_login.py::TestLogin::test_login_0_13800001111",
+  "scripts/test01_login.py::TestLogin::test_login_1_",
+  "scripts/test01_login.py::TestLogin::test_login_2_13800001111",
+  "scripts/test01_login.py::TestLogin::test_login_3_13800001111",
+  "scripts/test01_login.py::TestLogin::test_login_4_13800001112",
+  "scripts/test01_login.py::TestLogin::test_login_5_138000011112",
+  "scripts/test01_login.py::TestLogin::test_login_6_13800001111",
+  "scripts/test01_login.py::TestLogin::test_login_7_13800001111",
+  "scripts/test02_cart.py::TestCart::test_cart",
+  "scripts/test03_order.py::TestOrder::test_order",
+  "scripts/test04_pay.py::TestPay::test_pay"
+]
